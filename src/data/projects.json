@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Real-Time Blood Donor Matching System",
+    "imageSrc": "projects/project.png",
+    "description": "Built a web-based emergency blood donation platform connecting donors and recipients in real-time. Features OTP-based authentication, instant SMS alerts to nearby donors, and a mobile-friendly responsive UI for time-critical emergencies.",
+    "skills": ["HTML", "CSS", "JavaScript", "OTP Auth", "SMS Alerts", "UI/UX"],
+    "projectUrl": "https://sevagan-two.vercel.app/"
+  },
+  {
+    "title": "Sports Turf Booking Site",
+    "imageSrc": "projects/project.png",
+    "description": "Developed a responsive web application for viewing and booking sports turf slots in real time. Built an instant confirmation system eliminating manual calls and reducing turnaround time with a minimal-click UI.",
+    "skills": ["HTML", "CSS", "JavaScript", "Real-Time Booking", "UI/UX Design"],
+    "projectUrl": null
+  }
+]
