@@ -1,9 +1,10 @@
 [
   {
-    "title": "Real-Time Blood Donor Matching System",
+    "title": "Sevagan – Emergency Blood Donor Matching Platform",
+    "badge": "🏆 1st Prize Winner",
     "imageSrc": "projects/project.png",
-    "description": "Built a web-based emergency blood donation platform connecting donors and recipients in real-time. Features OTP-based authentication, instant SMS alerts to nearby donors, and a mobile-friendly responsive UI for time-critical emergencies.",
-    "skills": ["HTML", "CSS", "JavaScript", "OTP Auth", "SMS Alerts", "UI/UX"],
+    "description": "An award-winning emergency blood donation platform that connects donors and recipients in real-time. Features OTP-based secure authentication, automated SMS alerts to nearby donors, and a mobile-responsive interface for time-critical medical emergencies.",
+    "skills": ["JavaScript", "OTP Authentication", "Twilio SMS API", "Responsive Web Design"],
     "projectUrl": "https://sevagan-two.vercel.app/"
   },
   {

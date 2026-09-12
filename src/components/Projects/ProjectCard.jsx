@@ -4,15 +4,18 @@ import { getImageUrl } from "../../utils";
 import { FiExternalLink, FiClock } from "react-icons/fi";
 
 export const ProjectCard = ({
-  project: { title, imageSrc, description, skills, projectUrl },
+  project: { title, badge, imageSrc, description, skills, projectUrl },
 }) => {
   return (
     <div className={styles.container}>
-      <img
-        src={getImageUrl(imageSrc)}
-        alt={`Image of ${title}`}
-        className={styles.image}
-      />
+      <div className={styles.imageWrapper}>
+        <img
+          src={getImageUrl(imageSrc)}
+          alt={`Image of ${title}`}
+          className={styles.image}
+        />
+        {badge && <span className={styles.awardBadge}>{badge}</span>}
+      </div>
       <h3 className={styles.title}>{title}</h3>
       <p className={styles.description}>{description}</p>
       <ul className={styles.skills}>
