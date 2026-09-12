@@ -19,7 +19,7 @@ export const Hero = () => {
           <span>🎓 B.E - Computer Science & Engineering</span>
         </div>
         <h1 className={styles.title}>
-          Hello<br />
+          Hi,<br />
           I'm <span className={styles.nameBlue}>Mohamed</span><br />
           <span className={styles.namePurple}>Adil Ansari S</span>
         </h1>
