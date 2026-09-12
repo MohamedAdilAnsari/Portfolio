@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./About.module.css";
 import { getImageUrl } from "../../utils";
-import { FiCode, FiServer, FiDatabase, FiCpu, FiFigma } from "react-icons/fi";
+import { FiCode, FiServer, FiDatabase, FiFigma } from "react-icons/fi";
 
 export const About = () => {
   return (
@@ -44,17 +44,6 @@ export const About = () => {
               <h3>Database Management (MongoDB & MySQL)</h3>
               <p>
                 Hands-on experience structuring document collections in <strong>MongoDB</strong> and relational tables in <strong>MySQL</strong> for scalable data storage and query optimization.
-              </p>
-            </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <div className={styles.aboutIconContainer}>
-              <FiCpu className={styles.aboutIcon} />
-            </div>
-            <div className={styles.aboutItemText}>
-              <h3>AI & Automation (LLMs, n8n, CRM/ERM & MSP)</h3>
-              <p>
-                Knowledgeable in building AI-enhanced applications with <strong>LLMs</strong>, constructing automated workflows using <strong>n8n</strong>, and integrating enterprise <strong>CRM, ERM, and MSP system tools</strong>.
               </p>
             </div>
           </li>

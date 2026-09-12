@@ -16,11 +16,11 @@ export const Hero = () => {
 
       <div className={styles.content}>
         <div className={styles.badge}>
-          <span>🎓 B.E Computer Science & AI Developer</span>
+          <span>🎓 B.E - Computer Science & Engineering</span>
         </div>
         <h1 className={styles.title}>Hi, I'm Mohamed Adil Ansari S</h1>
         <p className={styles.description}>
-          Full-Stack Developer & AI Integrator experienced in <strong>React JS, Node.js, Express.js, MongoDB</strong>, and leveraging <strong>AI & LLMs, n8n workflow automation, CRM/ERM systems, and MSP management</strong>. Backed by internship experience at <strong>Nutz Technovation</strong> and problem solving in <strong>Java, C++, and MySQL</strong>.
+          Computer Science graduate & Full Stack Developer with hands-on experience building web applications using <strong>React JS, Node.js, Express.js, MongoDB, HTML, and CSS</strong>. Backed by internship experience at <strong>Nutz Technovation</strong> and strong problem-solving skills in <strong>Java, C++, and MySQL</strong>.
         </p>
 
         {/* CTA Buttons Row */}

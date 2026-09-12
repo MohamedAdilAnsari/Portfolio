@@ -1,10 +1,10 @@
 import React from "react";
+
 import styles from "./ProjectCard.module.css";
 import { getImageUrl } from "../../utils";
-import { FiExternalLink, FiClock } from "react-icons/fi";
 
 export const ProjectCard = ({
-  project: { title, imageSrc, description, skills, projectUrl },
+  project: { title, imageSrc, description, skills, demo, source, viewProject },
 }) => {
   return (
     <div className={styles.container}>
@@ -25,23 +25,44 @@ export const ProjectCard = ({
         })}
       </ul>
       <div className={styles.links}>
-        {projectUrl ? (
+        {viewProject ? (
           <a
-            href={projectUrl}
+            href={viewProject}
             target="_blank"
             rel="noopener noreferrer"
-            className={styles.viewProjectBtn}
+            className={styles.link}
           >
-            <span>View Project</span>
-            <FiExternalLink className={styles.btnIcon} />
+            View Project
           </a>
         ) : (
-          <button className={styles.disabledBtn} disabled title="Project link will be added soon">
-            <span>Link Coming Soon</span>
-            <FiClock className={styles.btnIcon} />
-          </button>
+          <>
+            {demo && (
+              <a
+                href={demo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.link}
+              >
+                Demo
+              </a>
+            )}
+            {source && (
+              <a
+                href={source}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.link}
+              >
+                Source
+              </a>
+            )}
+          </>
         )}
       </div>
     </div>
+  );
+};
+      </div >
+    </div >
   );
 };

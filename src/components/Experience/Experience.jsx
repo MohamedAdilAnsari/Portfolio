@@ -35,7 +35,7 @@ export const Experience = () => {
           <ul className={styles.history}>
             {history.map((historyItem, id) => {
               const isPresent = historyItem.endDate?.toLowerCase() === "present";
-              const techTags = ["React JS", "Node.js", "Express.js", "MongoDB", "AI & LLMs", "n8n", "CRM / ERM", "MSP Tools", "JavaScript", "HTML/CSS", "Figma"];
+              const techTags = ["HTML", "CSS", "JavaScript", "React JS", "Node.js", "Express.js", "MongoDB", "Figma"];
               return (
                 <li
                   key={id}
@@ -43,11 +43,7 @@ export const Experience = () => {
                   style={{ animationDelay: `${id * 0.15}s` }}
                 >
                   <div className={styles.logoWrapper}>
-                    <img
-                      src={getImageUrl(historyItem.imageSrc)}
-                      alt={`${historyItem.organisation} Logo`}
-                      className={styles.logoImg}
-                    />
+                    <FiBriefcase className={styles.briefcaseIcon} />
                   </div>
                   <div className={styles.historyItemDetails}>
                     <div className={styles.headerRow}>
