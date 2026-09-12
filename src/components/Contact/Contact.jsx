@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Contact.module.css";
-import { FiMail, FiPhone, FiMapPin, FiLinkedin, FiGithub, FiGlobe } from "react-icons/fi";
+import { FiMail, FiPhone, FiMapPin, FiLinkedin, FiGithub } from "react-icons/fi";
 
 export const Contact = () => {
   return (
@@ -32,12 +32,6 @@ export const Contact = () => {
           <FiGithub className={styles.icon} />
           <a href="https://github.com/MohamedAdilAnsari" target="_blank" rel="noopener noreferrer">
             github.com/MohamedAdilAnsari
-          </a>
-        </li>
-        <li className={styles.link}>
-          <FiGlobe className={styles.icon} />
-          <a href="https://portfolio-ebon-delta-gs8tg0uq99.vercel.app" target="_blank" rel="noopener noreferrer">
-            Live Portfolio Link
           </a>
         </li>
       </ul>
