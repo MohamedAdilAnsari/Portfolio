@@ -18,7 +18,11 @@ export const Hero = () => {
         <div className={styles.badge}>
           <span>🎓 B.E - Computer Science & Engineering</span>
         </div>
-        <h1 className={styles.title}>Hi, I'm Mohamed Adil Ansari S</h1>
+        <h1 className={styles.title}>
+          Hello<br />
+          I'm <span className={styles.nameBlue}>Mohamed</span><br />
+          <span className={styles.namePurple}>Adil Ansari S</span>
+        </h1>
         <p className={styles.description}>
           Computer Science graduate & Full Stack Developer with hands-on experience building web applications using <strong>React JS, Node.js, Express.js, MongoDB, HTML, and CSS</strong>. Backed by internship experience at <strong>Nutz Technovation</strong> and strong problem-solving skills in <strong>Java, C++, and MySQL</strong>.
         </p>
