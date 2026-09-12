@@ -5,10 +5,11 @@
     "startDate": "Aug 2026",
     "endDate": "Present",
     "experiences": [
-      "Working on full-stack web development projects using HTML, CSS, JavaScript, React JS, Node.js, Express.js, and MongoDB",
+      "Working on full-stack web development & AI projects using HTML, CSS, JavaScript, React JS, Node.js, Express.js, and MongoDB",
       "Building responsive frontend user interfaces and single-page applications with modular React components",
-      "Developing scalable backend RESTful APIs with Node.js & Express.js integrated with MongoDB collections & MySQL databases",
-      "Collaborating on UI/UX prototyping, wireframing in Figma, and optimizing cross-browser web performance"
+      "Developing scalable backend RESTful APIs with Node.js & Express.js integrated with MongoDB & MySQL databases",
+      "Leveraging AI & LLM integrations, n8n workflow automation, CRM/ERM systems, and MSP management tools",
+      "Collaborating on UI/UX prototyping, wireframing in Figma, and optimizing web performance"
     ],
     "imageSrc": "history/nutz.png"
   }

@@ -35,7 +35,7 @@ export const Experience = () => {
           <ul className={styles.history}>
             {history.map((historyItem, id) => {
               const isPresent = historyItem.endDate?.toLowerCase() === "present";
-              const techTags = ["HTML", "CSS", "JavaScript", "React JS", "Node.js", "Express.js", "MongoDB", "Figma"];
+              const techTags = ["React JS", "Node.js", "Express.js", "MongoDB", "AI & LLMs", "n8n", "CRM / ERM", "MSP Tools", "JavaScript", "HTML/CSS", "Figma"];
               return (
                 <li
                   key={id}

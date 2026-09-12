@@ -20,6 +20,26 @@
     "category": "Database"
   },
   {
+    "title": "AI & LLMs",
+    "imageSrc": "skills/graphql.png",
+    "category": "AI & Automation"
+  },
+  {
+    "title": "n8n Automation",
+    "imageSrc": "skills/node.png",
+    "category": "AI & Automation"
+  },
+  {
+    "title": "CRM / ERM",
+    "imageSrc": "skills/css.png",
+    "category": "Systems"
+  },
+  {
+    "title": "MSP Tools",
+    "imageSrc": "skills/html.png",
+    "category": "Systems"
+  },
+  {
     "title": "JavaScript",
     "imageSrc": "skills/node.png",
     "category": "Frontend"
