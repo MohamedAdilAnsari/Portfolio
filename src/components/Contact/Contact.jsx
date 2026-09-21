@@ -56,7 +56,7 @@ export const Contact = () => {
     setErrorMessage("");
 
     try {
-      await fetch("https://formsubmit.co/ajax/mohamedadilansari924@gmail.com", {
+      const response = await fetch("https://formsubmit.co/ajax/mohamedadilansari924@gmail.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -64,19 +64,44 @@ export const Contact = () => {
         },
         body: JSON.stringify({
           _subject: `Portfolio Message from ${formData.name}: ${formData.subject}`,
-          Name: formData.name,
-          Email: formData.email,
-          Subject: formData.subject,
-          Message: formData.message,
+          _captcha: "false",
+          name: formData.name,
+          email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
         }),
       });
 
-      setSubmittedMessage("✅ Email sent successfully to mohamedadilansari924@gmail.com!");
-      setFormData({ name: "", email: "", subject: presets[0], message: "" });
-      setTimeout(() => setSubmittedMessage(""), 6000);
+      const data = await response.json();
+
+      if (response.ok && (data.success === "true" || data.success === true)) {
+        setSubmittedMessage("✅ Email sent successfully to mohamedadilansari924@gmail.com!");
+        setFormData({ name: "", email: "", subject: presets[0], message: "" });
+        setTimeout(() => setSubmittedMessage(""), 6000);
+      } else {
+        // Fallback: Open default email client (mailto:) if FormSubmit requires activation
+        const mailtoUrl = `mailto:mohamedadilansari924@gmail.com?subject=${encodeURIComponent(
+          `[Portfolio] ${formData.subject}`
+        )}&body=${encodeURIComponent(
+          `Name: ${formData.name}\nEmail: ${formData.email}\nSubject: ${formData.subject}\n\nMessage:\n${formData.message}`
+        )}`;
+        window.location.href = mailtoUrl;
+        setSubmittedMessage("📧 Email client opened! (Tip: Check mohamedadilansari924@gmail.com inbox to click 'Activate FormSubmit' once for direct background sending)");
+        setFormData({ name: "", email: "", subject: presets[0], message: "" });
+        setTimeout(() => setSubmittedMessage(""), 8000);
+      }
     } catch (err) {
       console.error("Submission notice:", err);
-      setErrorMessage("Failed to send email. Please try again or use WhatsApp.");
+      // Fallback: Open default mail app
+      const mailtoUrl = `mailto:mohamedadilansari924@gmail.com?subject=${encodeURIComponent(
+        `[Portfolio] ${formData.subject}`
+      )}&body=${encodeURIComponent(
+        `Name: ${formData.name}\nEmail: ${formData.email}\nSubject: ${formData.subject}\n\nMessage:\n${formData.message}`
+      )}`;
+      window.location.href = mailtoUrl;
+      setSubmittedMessage("📧 Opened email client to send message!");
+      setFormData({ name: "", email: "", subject: presets[0], message: "" });
+      setTimeout(() => setSubmittedMessage(""), 6000);
     } finally {
       setIsSubmitting(false);
     }
