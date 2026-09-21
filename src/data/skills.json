@@ -1,0 +1,62 @@
+[
+  {
+    "title": "React JS",
+    "imageSrc": "skills/react.png",
+    "category": "Frontend"
+  },
+  {
+    "title": "Node.js",
+    "imageSrc": "skills/node.png",
+    "category": "Backend"
+  },
+  {
+    "title": "Express.js",
+    "imageSrc": "skills/node.png",
+    "category": "Backend"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png",
+    "category": "Database"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/node.png",
+    "category": "Frontend"
+  },
+  {
+    "title": "HTML5",
+    "imageSrc": "skills/html.png",
+    "category": "Frontend"
+  },
+  {
+    "title": "CSS3",
+    "imageSrc": "skills/css.png",
+    "category": "Frontend"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "skills/java.png",
+    "category": "Languages"
+  },
+  {
+    "title": "C++",
+    "imageSrc": "skills/graphql.png",
+    "category": "Languages"
+  },
+  {
+    "title": "MySQL",
+    "imageSrc": "skills/mongodb.png",
+    "category": "Database"
+  },
+  {
+    "title": "UI/UX Design",
+    "imageSrc": "skills/figma.png",
+    "category": "Design"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "skills/figma.png",
+    "category": "Design"
+  }
+]

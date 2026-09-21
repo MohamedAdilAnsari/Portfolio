@@ -1,0 +1,15 @@
+[
+  {
+    "role": "Full Stack Developer Intern",
+    "organisation": "Nutz Technovation Private Limited",
+    "startDate": "Aug 2026",
+    "endDate": "Present",
+    "experiences": [
+      "Working on full-stack web development projects using HTML, CSS, JavaScript, React JS, Node.js, Express.js, and MongoDB",
+      "Building responsive frontend user interfaces and single-page applications with modular React components",
+      "Developing scalable backend RESTful APIs with Node.js & Express.js integrated with MongoDB collections & MySQL databases",
+      "Collaborating on UI/UX prototyping, wireframing in Figma, and optimizing cross-browser web performance"
+    ],
+    "imageSrc": "history/nutz.png"
+  }
+]

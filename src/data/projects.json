@@ -1,0 +1,34 @@
+[
+  {
+    "id": "sevagan",
+    "title": "Sevagan – Emergency Blood Donor Matching Platform",
+    "badge": "🏆 1st Prize Winner",
+    "imageSrc": "projects/project.png",
+    "description": "An award-winning emergency blood donation platform that connects donors and recipients in real-time. Features OTP-based secure authentication, automated SMS alerts to nearby donors, and a mobile-responsive interface for time-critical medical emergencies.",
+    "skills": ["JavaScript", "OTP Authentication", "Twilio SMS API", "Responsive Web Design", "Node.js", "Express"],
+    "projectUrl": "https://sevagan-two.vercel.app/",
+    "features": [
+      "Real-time Geo-Matching: Automatically identifies nearby registered blood donors during urgent medical requests.",
+      "Instant SMS Broadcasting: Integrates Twilio SMS API to trigger immediate broadcast alerts to matching blood group donors.",
+      "OTP-Based Verification: Secure multi-step verification to ensure authentic donor availability and mitigate spam.",
+      "Urgency Level Indicators: Criticality categorization (Emergency vs Scheduled) to prioritize life-saving requests."
+    ],
+    "architecture": "Client-Server web architecture built with a lightweight frontend, REST APIs for authentication & donor lookup, and Twilio SMS gateway for emergency notification routing."
+  },
+  {
+    "id": "sports-turf",
+    "title": "Sports Turf Booking Site",
+    "badge": "⚡ Real-Time Booking System",
+    "imageSrc": "projects/project.png",
+    "description": "Developed a responsive web application for viewing and booking sports turf slots in real time. Built an instant confirmation system eliminating manual calls and reducing turnaround time with a minimal-click UI.",
+    "skills": ["HTML", "CSS", "JavaScript", "Real-Time Booking", "UI/UX Design", "Local Storage / State"],
+    "projectUrl": null,
+    "features": [
+      "Interactive Slot Selector: Visual grid display showing available, booked, and reserved turf time slots.",
+      "Instant Automated Confirmation: Direct reservation generation eliminating phone booking overhead.",
+      "Dynamic Pricing Calculator: Real-time calculation based on peak hours, weekend rates, and turf selection.",
+      "Mobile-Optimized Interface: Seamless booking experience across mobile devices and tablets."
+    ],
+    "architecture": "Responsive Single Page Application with dynamic DOM manipulation, real-time slot state management, and optimized asset delivery for low-latency booking."
+  }
+]
