@@ -21,6 +21,9 @@ function App() {
       <Education />
       <Experience />
       <Projects onSelectProject={(project) => setActiveProject(project)} />
+
+
+        
       <Achievements />
       <Contact />
 

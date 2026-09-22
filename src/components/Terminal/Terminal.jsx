@@ -72,7 +72,8 @@ export const Terminal = () => {
      • Live: https://sevagan-two.vercel.app/
 
   2. Sports Turf Booking Site
-     • Tech: HTML, CSS, JS, Real-Time Slot Selector`,
+     • Tech: HTML, CSS, JS, Real-Time Slot Selector
+     • Live: https://turf-website-omega.vercel.app/`,
         });
         break;
 

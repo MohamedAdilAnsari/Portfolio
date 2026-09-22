@@ -22,7 +22,7 @@
     "imageSrc": "projects/project.png",
     "description": "Developed a responsive web application for viewing and booking sports turf slots in real time. Built an instant confirmation system eliminating manual calls and reducing turnaround time with a minimal-click UI.",
     "skills": ["HTML", "CSS", "JavaScript", "Real-Time Booking", "UI/UX Design", "Local Storage / State"],
-    "projectUrl": null,
+    "projectUrl": "https://turf-website-omega.vercel.app/",
     "features": [
       "Interactive Slot Selector: Visual grid display showing available, booked, and reserved turf time slots.",
       "Instant Automated Confirmation: Direct reservation generation eliminating phone booking overhead.",
